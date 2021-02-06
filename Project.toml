@@ -1,0 +1,13 @@
+name = "SamplePkg"
+uuid = "0c3258a0-2a82-4a38-bbe4-156495dc8a43"
+authors = ["Pawel Budzynski"]
+version = "0.1.0"
+
+[compat]
+julia = "1"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test"]
